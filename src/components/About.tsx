@@ -10,15 +10,30 @@ const About = () => {
           <div className="w-20 h-1 bg-tech-blue mx-auto"></div>
         </div>
 
-        <div className="max-w-3xl mx-auto">
-          <p className="text-lg text-tech-gray/80 mb-6 leading-relaxed">
-            I'm Justin Newby, a professional IT coordinator with over 5 years of experience supporting end users and managing enterprise software like Office 365, Maas360, Empirum, and Active Directory. I'm passionate about helping people and finding efficient, practical solutions tailored to their needs — whether at home or in a small business setting.
-          </p>
-          
-          <p className="text-lg text-tech-gray/80 mb-10 leading-relaxed">
-            I bring my professional background to individuals and local businesses at a fair and honest price.
-            I strive to serve with patience, care, and transparency, and I always take the time to explain things clearly so you feel empowered — not overwhelmed.
-          </p>
+        <div className="max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-center mb-12">
+            <div className="lg:col-span-1 flex justify-center">
+              <div className="relative">
+                <img 
+                  src="/lovable-uploads/49d98d22-a797-42af-88af-f63a92497dfc.png"
+                  alt="Justin Newby - IT Coordinator and Tech Support Specialist"
+                  className="w-64 h-64 object-cover rounded-full shadow-lg"
+                />
+                <div className="absolute inset-0 rounded-full ring-4 ring-tech-blue/20"></div>
+              </div>
+            </div>
+            
+            <div className="lg:col-span-2">
+              <p className="text-lg text-tech-gray/80 mb-6 leading-relaxed">
+                I'm Justin Newby, a professional IT coordinator with over 5 years of experience supporting end users and managing enterprise software like Office 365, Maas360, Empirum, and Active Directory. I'm passionate about helping people and finding efficient, practical solutions tailored to their needs — whether at home or in a small business setting.
+              </p>
+              
+              <p className="text-lg text-tech-gray/80 mb-6 leading-relaxed">
+                I bring my professional background to individuals and local businesses at a fair and honest price.
+                I strive to serve with patience, care, and transparency, and I always take the time to explain things clearly so you feel empowered — not overwhelmed.
+              </p>
+            </div>
+          </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
             <div className="bg-tech-lightgray p-6 rounded-lg flex flex-col items-center text-center">
